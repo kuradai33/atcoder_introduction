@@ -3,12 +3,13 @@
 
 int main(){
     // 変数を宣言する
-    int X, rest;
+    int X;
 
     // 入力する
     std::cin >> X;
 
     // 処理を行う
+    int rest;
     if(X < 40){ // 0 <= X && X < 40 でも可
         rest = 40 - X;
     }
