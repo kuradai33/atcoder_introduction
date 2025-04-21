@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 int main(){
     // 変数を宣言する
