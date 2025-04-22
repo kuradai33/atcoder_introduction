@@ -23,12 +23,14 @@ int main(){
 
         long long int sum = 0;
         for(int i = 0; i < N; i++){
+            int min;
             if(mid < A[i]){
-                sum = sum + mid;
+                min = mid;
             }
             else{
-                sum = sum + A[i];
+                min = A[i];
             }
+            sum = sum + min;
         }
 
         if(sum <= M){
